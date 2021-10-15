@@ -1,0 +1,42 @@
+#include <math.h>
+
+int const SURFACE = 0;
+int const VOLUME = 1;
+
+ /* some worker procedures */
+float calculate(int process, float l, float w, float h)
+{
+	float result;
+	
+	/* converting to nearest multiple of 3 */
+	l = ceilf(l / 3) * 3;
+	w = ceilf(w / 3) * 3;
+	h = ceilf(h / 3) * 3;
+
+	if (process == SURFACE)
+	{
+		result = 2 * (l * w + l * h + w * h);
+	}
+	else
+	{
+		result = l * w * h;
+	}
+
+	return result;
+}
+
+float postage(float v, float m)
+{
+	float result;
+
+	if (v < m * 9)
+	{
+		result = v * 3;
+	}
+	else
+	{
+		result = m * 9 * 2;
+	}
+	
+	return result;
+}
