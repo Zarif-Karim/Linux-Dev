@@ -1,0 +1,17 @@
+This is the updated version.
+
+This is a test file only. It can check programs, but cannot check script.
+It does check the logic correctness of the programs, but does not check 
+other errors.
+
+This is a test file only. It can check programs, but cannot check script.
+It does check the logic correctness of the programs, but does not check 
+other errors.
+
+This is a test file only. It can check programs, but cannot check script.
+It does check the logic correctness of the programs, but does not check 
+other errors.
+
+
+
+ÿ
