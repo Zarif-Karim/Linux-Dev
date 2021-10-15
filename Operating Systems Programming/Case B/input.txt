@@ -1,0 +1,13 @@
+Try and print this
+now this
+then this
+hello
+hi
+bye
+exit
+this
+will
+be
+going
+too
+fast
